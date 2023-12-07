@@ -1,0 +1,20 @@
+
+SOURCE INFORMATION
+
+I found this tutorial to help me:
+https://www.digitalocean.com/community/tutorials/how-to-make-a-web-application-using-flask-in-python-3
+
+Changes:
+    Database structure - Adding a due date field
+    Turning the program into a to-do list website instead of a post.
+    Adding css to improve the appearance.
+
+TO USE
+
+You must initialize the database before beginning:
+python init_db.py
+
+To run the program you must be in venv
+export FLASK_APP=app 
+export FLASK_ENV=development 
+flask run
