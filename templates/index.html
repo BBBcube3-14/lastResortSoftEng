@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>{% block title %} To-Do List by Flask {% endblock %}</h1>
+    {% for task in tasks %}
+        <a href="{{ url_for('task', task_id=task['id']) }}">
+            <h2>{{ task['tName'] }}</h2>
+        </a>
+        <span class = "badge badge-primary">Created: {{ task['created'] }}</span>
+        <span class = "badge badge-primary">Due: {{ task['endDate'] }}</span>
+        <a href="{{ url_for('edit', id=task['id']) }}">
+            <span class="badge badge-warning">Edit</span>
+        </a>
+        <hr>
+    {% endfor %}
+{% endblock %}

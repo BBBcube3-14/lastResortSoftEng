@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>{% block title %} {{ task['tName'] }} {% endblock %}</h2>
+    <span class="badge badge-primary">Created: {{ task['created'] }}</span>
+    <span class="badge badge-primary">Due Date: {{ task['endDate']}}</span>
+    <p>{{ task['tDescription'] }}</p>
+{% endblock %}

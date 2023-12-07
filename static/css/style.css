@@ -1,0 +1,73 @@
+* {
+    font-family: 'Arial', sans-serif;
+}
+
+html {
+    background-color: rgb(72, 70, 70);
+    padding: 10px;
+}
+
+body {
+    width: 95%;
+    margin: 25px auto;
+    border: 2px white solid;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+div.container {
+    background-color: white;
+    /*margin: 10px;*/
+}
+
+h1 {
+    font-size: 2em;
+    color: lightseagreen;
+    text-align: center;
+    padding: 10px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+a {
+    width: 100%;
+    color: lightseagreen;
+}
+
+.badge-primary {
+    color: white;
+    background-color: lightseagreen;
+}
+
+a.navbar-brand {
+    float: left;
+}
+/*
+a.navbar-brand {
+    width: 50%;
+    float: left;
+}*/
+/*
+.float-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    /*display: flex;*//*
+}
+
+.float-child {
+    flex: 1;
+}
+.left {
+    width: 50%;
+    position: relative;
+}
+.right {
+    width: 55%;
+    position: relative;
+}
+*/
